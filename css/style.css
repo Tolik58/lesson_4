@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap');
+
+@import "stylesheet.css";
+
+
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Bold.woff2') format('woff2'),
+        url('CormorantGaramond-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans Condensed';
+    src: url('FiraSansCondensed-ExtraLight.woff2') format('woff2'),
+        url('FiraSansCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Italic.woff2') format('woff2'),
+        url('CormorantGaramond-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Light.woff2') format('woff2'),
+        url('CormorantGaramond-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('Pacifico-Regular.woff2') format('woff2'),
+        url('Pacifico-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*  конец подключения стилей css */
+
+
+body {
+    font-size: 20px;
+    font-family: 'Pacifico';
+}
+
+main {
+    font-family: 'Fira Sans Condensed';
+}
+
+.name {
+    font-family: 'Cormorant Garamond';
+    color:cadetblue;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+}
+
+nav {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(246, 4, 4);
+}
+
+a {
+    color:rgb(10, 195, 4);
+}
+
+.content a {
+    color:sandybrown;
+}
+
+div p {
+    color:green;
+}
+
+.page-one li {
+    color:saddlebrown;
+    text-transform: capitalize;
+}
+
+.page-two {
+    color:rgb(114, 139, 92);
+    text-transform: lowercase;
+}
+
+.page-three li {
+    color:slateblue;
+    text-transform: uppercase;
+}
+
+.page-four p {
+    color:tomato;
+}
+
+mark {
+    color:red;
+}
